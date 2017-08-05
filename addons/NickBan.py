@@ -1,6 +1,6 @@
 __module_name__ = 'Nicknameban'
 __module_version__ = '0.1'
-__module_description__ = 'cban user for a spécific time.'
+__module_description__ = 'kickban by nickname only, with a reason message.'
 __module_author__ = 'Powabanga !'
  
 import xchat
