@@ -1,6 +1,6 @@
 __module_name__ = "imagesexy"
 __module_version__ = "0.1"
-__module_description__ = "silhouette de trynity"
+__module_description__ = "Send a sexy silhouette in color text"
 __module_author__ = "Powa"
 
 import xchat
