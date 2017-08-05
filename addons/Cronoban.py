@@ -1,7 +1,7 @@
 
 __module_name__ = 'Chronoban'
 __module_version__ = '0.1'
-__module_description__ = 'cban user for a spécific time.'
+__module_description__ = 'ban user for a spécific time with an automatic reason.'
 __module_author__ = 'Powabanga !'
  
 import xchat
