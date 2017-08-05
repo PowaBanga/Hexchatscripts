@@ -21,3 +21,4 @@ import xchat
 EVENTS = [("Channel Message", 1)]
 for event in EVENTS:
     xchat.hook_print(event[0], stop_mess_auto, event)
+ 
