@@ -1,0 +1,101 @@
+NAME _Ouvrir la fenêtre de dialogue~gtk-go-up~
+CMD query %s
+
+NAME _Envoyer un fichier~gtk-floppy~
+CMD send %s
+
+NAME Informations de l'_utilisateur (WhoIs)~gtk-info~
+CMD whois %s %s
+
+NAME _Ajouter à la liste d'amis~gtk-add~
+CMD notify -n ASK %s
+
+NAME _Ignorer~gtk-stop~
+CMD ignore %s!*@* ALL
+
+NAME SUB
+CMD op/deop/v
+
+NAME Donner l'état d'opérateur
+CMD op %a
+
+NAME Prendre l'état d'opérateur
+CMD deop %a
+
+NAME HOP Hal operator ChS
+CMD msg ChanServ HOP %c ADD %a
+
+NAME SEP
+CMD 
+
+NAME Donner la parole
+CMD voice %a
+
+NAME Prendre la parole
+CMD devoice %a
+
+NAME Voice Chanserv
+CMD msg ChanServ VOP %c ADD %a
+
+NAME ENDSUB
+CMD 
+
+NAME SUB
+CMD Expulser/Bannir
+
+NAME Expulser
+CMD kick %s
+
+NAME Bannir
+CMD ban %s
+
+NAME Akick Chs
+CMD msg chanserv akick %c add %a
+
+NAME Rkick fr
+CMD rkick %a
+
+NAME ENDSUB
+CMD 
+
+NAME SUB
+CMD Bannissement
+
+NAME *!*@*.host
+CMD kickban %s 0
+
+NAME SUB 
+CMD *!*@domain
+
+NAME Indéterminé
+CMD kickban %s 1
+
+NAME 30 secondes
+CMD cban1 %c 30 %s %h
+
+NAME 2 minutes
+CMD cban1 %c 120 %s %h
+
+NAME 10 minutes
+CMD cban1 %c 600 %s %h
+
+NAME 1 heure
+CMD cban1 %c 3600 %s %h
+
+NAME 4 heures
+CMD cban1 %c 14400 %s %h
+
+NAME 24 heures
+CMD cban1 %c 86400 %s %h
+
+NAME ENDSUB
+CMD 
+
+NAME *!*user@*.host
+CMD kickban %s 2
+
+NAME *!*user@domain
+CMD kickban %s 3
+
+NAME ENDSUB
+CMD 
